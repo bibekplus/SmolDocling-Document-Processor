@@ -39,6 +39,11 @@ SmolDocling Document Processor is a lightweight application that processes docum
 2. Install the required dependencies:
 
     ```bash
+    uv sync
+    ```
+    or
+
+    ```bash
     pip install -r requirements.txt
 
 3. Ensure you have the necessary backend setup for MLX (optimized for Apple Silicon but works on other platforms).
