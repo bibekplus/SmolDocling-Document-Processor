@@ -1,0 +1,15 @@
+[project]
+name = "smol"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docling-core>=2.24.1",
+    "gradio>=5.23.1",
+    "mlx-vlm>=0.1.21",
+    "pdf2image>=1.17.0",
+    "pillow>=11.1.0",
+    "requests>=2.32.3",
+    "torch>=2.6.0",
+]
